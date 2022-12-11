@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#312e42"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="10dp">
+
+
+                <TextView
+                    android:layout_column="1"
+                    android:id="@+id/textView"
+                    android:layout_margin="10dp"
+                    android:text="CrimeList"
+                    android:textSize="24sp"
+                    android:textColor="#e4e3e6"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.05" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_column="2"
+                    android:id="@+id/fabA"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:clickable="true"
+                    android:layout_width="0dp"/>
+                <!-- android:contentDescription="FAB"
+                 android:src="@android:drawable/arrow_up_float"-->
+            </TableRow>
+        </TableLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/crime_list_item" />
+
+    </LinearLayout>
+</FrameLayout>

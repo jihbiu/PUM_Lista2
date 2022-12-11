@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<array name="crimes_description">
+    <item>
+        <description>"Found a student sitting alone in class while the teacher was on his brake. During that period the apple that was left on the desk had a piece bitten off. The only person that had access during that time was the student."</description>
+    </item>
+    <item>
+        <description>"A student borrowed a pencil from the teacher during a exam, but even after giving his exam to the teacher, he didn't return the pencil."</description>
+    </item>
+    <item>
+        <description>"During the lesson the student cheated on a tournament that the group organized. The game played was tic tac toe."</description>
+    </item>
+    <item>
+        <description>"While leaving the class the student left every window open, so the school has to pay more for."</description>
+    </item>
+    <item>
+        <description>"The Students organized a exam cheating method by sneezing the morse code, which lead them to not writing it on their own."</description>
+    </item>
+    <item>
+        <description>"During the break, he went and broke his college friends favourite pen, on which he was to sad to participate on the whole lecture."</description>
+    </item>
+    <item>
+        <description>"The student lied about going to the toilet during the class, instead of that he went and bought a snickers for him and his friend"</description>
+    </item>
+    <item>
+        <description>"Student was found guilty of hiding a cheat sheet under his ear during the exam"</description>
+    </item>
+    <item>
+        <description>"While working on the computer, the student turned the screen upside down by pressing CTRL + ALT + 'ArrowKey'(Doesn't work on windows 11) "</description>
+    </item>
+    <item>
+        <description>"Brought a hamster for the exam to help him guess the right answers (somehow it worked)"</description>
+    </item>
+    <item>
+        <description>"Was caught stealing leaves from the plants inside the class and on the corridor"</description>
+    </item>
+    <item>
+        <description>"While writing the exam, the student sneezed on the paper, because of that the teacher got sick after checking his work"</description>
+    </item>
+    <item>
+        <description>"Organized a illegal 'Rock, Paper, Scissors' game during the break"</description>
+    </item>
+    <item>
+        <description>"Took bets from other students, on who will win the 'Rock, Paper, Scissors' game"</description>
+    </item>
+    <item>
+        <description>"Went on convincing everyone why the 'Morbius' movie was the best movie ever"</description>
+    </item>
+    <item>
+        <description>"After closing the school cafeteria, started selling fruits and sweets to his friends"</description>
+    </item>
+    <item>
+        <description>"The student opened the wrong window on the advent calendar during school, because he was greedy and wanted all of them"</description>
+    </item>
+    <item>
+        <description>"Was caught after his lessons, taking water into a 5l bottle inside the toilets. He replied 'I need it to water my plants'"</description>
+    </item>
+    <item>
+        <description>"Wanted to make a good act for everyone by ordering a pizza to share with everyone. Sadly the pizza had pineapple on it."</description>
+    </item>
+    <item>
+        <description>"During a math lesson, he had to solve a equation which had a inequality at the end that was 10 + 10 = 11 + 11. He said that in the end it is true, because 10 + 10 equals to 20, while 11 + 11 equals to 20 too "</description>
+    </item>
+</array>
+</resources>

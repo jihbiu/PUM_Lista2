@@ -1,0 +1,142 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailFragment"
+    android:orientation="vertical">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="10dp"
+                android:background="#312e42">
+
+
+                <TextView
+                    android:layout_column="1"
+                    android:id="@+id/textView"
+                    android:layout_margin="10dp"
+                    android:text="CrimeList"
+                    android:textSize="24sp"
+                    android:textColor="#e4e3e6"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.05" />
+
+               <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:clickable="true"
+                    android:src="@android:drawable/arrow_up_float"
+                    android:contentDescription="FAB" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="32dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_column="1">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12sp">
+                    <TextView
+                        android:id="@+id/studentIdHeading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Student ID:"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:id="@+id/studentIdDetail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="id"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:layout_marginLeft="6sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12sp">
+                        <TextView
+                            android:id="@+id/crimeSolvedHeading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Was Solved: "
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:id="@+id/crimeSolvedDetail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="false"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/black"
+                            android:textSize="22sp"
+                            android:layout_marginLeft="6sp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12sp">
+                        <TextView
+                            android:id="@+id/crimeDateHeading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Crime date: "
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:id="@+id/crimeDateDetail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="00.00.0000"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/black"
+                            android:textSize="22sp"
+                            android:layout_marginLeft="6sp"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/descriptionHeading"
+                        android:layout_width="316dp"
+                        android:layout_height="wrap_content"
+                        android:text="Description of crime:"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/descriptionDetail"
+                        android:layout_width="316dp"
+                        android:layout_height="wrap_content"
+                        android:text="description"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+
+
+
+
+
+
+</FrameLayout>
