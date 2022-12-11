@@ -50,12 +50,10 @@ public class ListFragment extends Fragment {
 
 
         if(!wasCreated) {
-            System.out.println("##############################  INIT DATA   ##############################");
             initData();
             wasCreated = true;
         }
         else{
-            System.out.println("CALLED NOT INIT DATA ");
             crimeList = getArguments() != null ? (LinkedList<Crime>) getArguments().getSerializable("crimeList") : null;
         }
 
